@@ -45,7 +45,7 @@ const LoadingScreen = ({ onComplete, audioRef }: {
       ))}
 
       <div style={{ marginBottom: '2.5rem' }}>
-        <img src="/src/imgs/rings.png" alt="rings" style={{ width: '90px', height: 'auto' }} />
+        <img src="public\imgs\rings.png" alt="rings" style={{ width: '90px', height: 'auto' }} />
       </div>
 
       <p style={{
