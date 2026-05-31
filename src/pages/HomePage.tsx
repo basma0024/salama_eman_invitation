@@ -74,7 +74,7 @@ const HomePage = () => {
   }}
 >
   <img
-    src="public\imgs\rings.png"
+    src="public/imgs/rings.png"
     alt="rings"
     style={{ width: '80px', height: 'auto' }}
   />
