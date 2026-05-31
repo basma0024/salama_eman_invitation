@@ -4,6 +4,10 @@ import { Heart, Calendar, MapPin } from 'lucide-react';
 import CountdownTimer from '../components/CountdownTimer';
 import LangToggle from '../components/LangToggle';
 import { useLang } from '../context/LangContext';
+import rings from '../../public/imgs/rings.png';
+import couplePhoto from '../../public/imgs/eman_salama.png';
+
+
 
 const emojis = ['📷', '💍', '🕯️', '🎉'];
 
@@ -74,7 +78,7 @@ const HomePage = () => {
   }}
 >
   <img
-    src="public/imgs/rings.png"
+    src={rings}
     alt="rings"
     style={{ width: '80px', height: 'auto' }}
   />
@@ -249,7 +253,7 @@ const HomePage = () => {
   </p>
 
  <img
-  src="src/imgs/eman_salama.png"
+  src={couplePhoto}
   alt="Eman & Salama"
   style={{
     width: '100%',
