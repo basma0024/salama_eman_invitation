@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLang } from '../context/LangContext';
 import LangToggle from '../components/LangToggle';
-import rings from "public/imgs/rings.png";
+import rings from '../../public/imgs/rings.png';
 
 const LoadingScreen = ({ onComplete, audioRef }: {
   onComplete: () => void;
