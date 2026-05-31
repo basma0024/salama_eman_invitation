@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLang } from '../context/LangContext';
 import LangToggle from '../components/LangToggle';
+import rings from "public/imgs/rings.png";
 
 const LoadingScreen = ({ onComplete, audioRef }: {
   onComplete: () => void;
@@ -45,7 +46,7 @@ const LoadingScreen = ({ onComplete, audioRef }: {
       ))}
 
       <div style={{ marginBottom: '2.5rem' }}>
-        <img src="public/imgs/rings.png" alt="rings" style={{ width: '90px', height: 'auto' }} />
+        <img src={rings} alt="rings" style={{ width: '90px', height: 'auto' }} />
       </div>
 
       <p style={{
