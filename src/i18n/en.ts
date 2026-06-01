@@ -22,7 +22,7 @@ const en = {
     salama:'Salama',
     eman:'Eman',
     and: '&',
-    date: '08 · 07 · 2026 — Edku, Elwaha',
+    date: '07 · 08 · 2026 — Edku, Elwaha',
     mindate:'August 7',
     dearGuests: 'Dear Guests!',
     guestMessage:
