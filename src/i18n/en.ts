@@ -28,7 +28,7 @@ const en = {
     guestMessage:
       'Something wonderful is about to happen in our lives. We would be so happy to share this special day with the people who matter most to us — our family and dearest friends. Please join us as we celebrate the beginning of our forever.',
     august: 'August',
-    twoThousandTwentySix: 'two thousand twenty-six',
+    twoThousandTwentySix: '2026',
     program: 'PROGRAM',
     programItems: [
       { time: '2:00 PM', title: 'Guest Arrival', desc: 'Bring your warmest smile and a heart full of joy.' },
