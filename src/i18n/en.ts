@@ -2,7 +2,7 @@ const en = {
   // Loading Screen
   loading: {
     invited: 'you are invited',
-    date: 'August 7 · Two Thousand Twenty-Six',
+    date: 'August 7 · 2026',
     
   },
 

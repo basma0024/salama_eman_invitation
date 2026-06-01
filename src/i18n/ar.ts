@@ -2,7 +2,7 @@ const ar = {
   // Loading Screen
   loading: {
   invited: 'أنت مدعو',
-  date: '٧ أغسطس · ألفان وستة وعشرون',  },
+  date: '٧ أغسطس · ٢٠٢٦',  },
 
   // Navbar
   nav: {
