@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { useLang } from '../context/LangContext';
 import LangToggle from '../components/LangToggle';
 import rings from '../../public/imgs/rings.png';
+import couplePhoto from '../../public/imgs/eman_salama.png';
+
 
 const LoadingScreen = ({ onComplete, audioRef }: {
   onComplete: () => void;
@@ -57,7 +59,7 @@ const LoadingScreen = ({ onComplete, audioRef }: {
         {tr.loading.invited}
       </p>
 
-      <div style={{
+      {/* <div style={{
         fontFamily: isRTL ? "'Noto Nastaliq Urdu', serif" : "'Playfair Display', serif",
         fontSize: '52px', fontStyle: 'italic', color: '#4a2512',
         textAlign: 'center', lineHeight: isRTL ? 1.8 : 1.1,
@@ -67,7 +69,43 @@ const LoadingScreen = ({ onComplete, audioRef }: {
         {tr.home.salama}
         <span style={{ display: 'block', fontSize: '29px', color: '#c9956b', margin: '4px 0' }}>&</span>
         {tr.home.eman}
-      </div>
+      </div> */}
+
+      <section
+  style={{
+    // background: '#f0e4d8',
+    // padding: '60px 1rem',
+    textAlign: 'center',
+  }}
+>
+ 
+
+ <img
+  src={couplePhoto}
+  alt="Eman & Salama"
+  style={{
+    width: '100%',
+    maxWidth: '280px',
+    height: 'auto',
+    marginBottom: '24px',
+    display: 'block',
+    margin: '0 auto 24px',
+  }}
+/>
+
+  <p style={{
+    fontFamily: isRTL ? "'Noto Nastaliq Urdu', serif" : "'Playfair Display', serif",
+    fontStyle: isRTL ? 'normal' : 'italic',
+    fontSize: '22px',
+    color: '#4a2512',
+    marginBottom: '8px',
+    lineHeight: isRTL ? 2 : 1.4,
+  }}>
+    {tr.home.salama} & {tr.home.eman} 
+  </p>
+
+  
+</section>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '1.5rem', animation: 'fadeUp 1s ease forwards 0.9s', opacity: 0 }}>
         <div style={{ width: '50px', height: '1px', background: '#c9956b' }} />
