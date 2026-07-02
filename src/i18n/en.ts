@@ -19,10 +19,10 @@ const en = {
   home: {
     invitation: 'you have received an invitation',
     from: 'from',
-    salama:'Salama',
-    eman:'Eman',
+    salama:'Mustafa',
+    eman:'Shahd',
     and: '&',
-    date: '07 · 08 · 2026 — Edku, Elwaha',
+    date: '07 · 08 · 2026 — Mirage Hall, Smouha, Alexandria',
     mindate:'August 7',
     dearGuests: 'Dear Guests!',
     guestMessage:
@@ -38,8 +38,8 @@ const en = {
     closingQuote: '"We can\'t wait to celebrate this special day with you..."',
     withLove: 'With love,',
     sendMessage: 'Send Us Message',
-    location:'Edku,Elwaha',
-    salama_eman:'Salama Soffar & Eman Ashraf',
+    location:'Mirage Hall, Smouha, Alexandria',
+    salama_eman:'Mustafa Ahmed & Shahd Hassan',
     
   },
 

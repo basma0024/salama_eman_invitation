@@ -6,6 +6,8 @@ import LangToggle from '../components/LangToggle';
 import { useLang } from '../context/LangContext';
 import rings from '../../public/imgs/rings.png';
 import couplePhoto from '../../public/imgs/eman_salama.png';
+import locationImg from '../../public/imgs/location.jpg';
+
 
 
 
@@ -177,17 +179,17 @@ const HomePage = () => {
               {tr.home.mindate}
             </p>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',fontWeight:900 }}>
+          {/* <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px',fontWeight:900 }}>
             <MapPin style={{ width: '16px', height: '16px', color: '#7c4a2d' }} />
             <a
-              href="https://maps.google.com"
+              href="https://maps.app.goo.gl/poUjHYYxF3jKLeJx5"
               target="_blank"
               rel="noopener noreferrer"
               style={{ fontSize: '13px', letterSpacing: '0.25em', color: '#7c4a2d', textTransform: 'uppercase', textDecoration: 'none' }}
             >
               {tr.home.location}
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Countdown */}
@@ -280,6 +282,15 @@ const HomePage = () => {
     {tr.home.date}
   </p>
 </section>
+
+ 
+
+
+
+
+
+
+
 
       {/* ── DEAR GUESTS MESSAGE ── */}
       <section style={{ background: '#f5ede4', padding: '80px 1rem', textAlign: 'center' }}>
@@ -377,6 +388,80 @@ const HomePage = () => {
 </div>
        
       </section>
+
+
+
+ <section
+  style={{
+    // background: colors.bgLight,
+    padding: '0px 1.5rem 90px 1.5rem',
+    textAlign: 'center',
+    position: 'relative',
+  }}
+>
+  <h2
+    style={{
+      fontFamily: isRTL ? "'Noto Nastaliq Urdu', serif" : "'Playfair Display', serif",
+      fontStyle: 'italic',
+      fontSize: 'clamp(28px, 6vw, 38px)',
+      color: '#4a2512' ,
+      marginBottom: '36px',
+    }}
+  >
+    {isRTL ? 'موقع الحفل' : 'Open Location'}
+  </h2>
+
+  <div
+    style={{
+      maxWidth: '420px',
+      margin: '0 auto',
+      borderRadius: '16px',
+      overflow: 'hidden',
+      boxShadow: '0 10px 30px rgba(0,0,0,0.12)',
+    }}
+  >
+    <img
+      src={locationImg}
+      alt={isRTL ? 'موقع الحفل' : 'Wedding Venue'}
+      style={{
+        width: '100%',
+        height: '260px',
+        objectFit: 'cover',
+        display: 'block',
+      }}
+    />
+  </div>
+
+  <a
+    href="https://maps.app.goo.gl/poUjHYYxF3jKLeJx5"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      display: 'inline-flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      gap: '8px',
+      marginTop: '28px',
+      padding: '14px 32px',
+      background: '#4a2512',
+      color: '#fff',
+      borderRadius: '30px',
+      textDecoration: 'none',
+      fontSize: '13px',
+      letterSpacing: '0.15em',
+      textTransform: 'uppercase',
+      fontWeight: 700,
+      // boxShadow: '0 8px 20px rgba(107,18,36,0.25)',
+    }}
+  >
+    <MapPin style={{ width: '16px', height: '16px' }} />
+    {isRTL ? 'افتح الموقع' : 'Open Location'}
+  </a>
+</section>
+
+
+
+
 
       {/* ── PROGRAM ── */}
       <section style={{ background: '#f0e4d8', padding: '80px 1rem' }}>
